@@ -1,0 +1,61 @@
+header {
+    @include flex("between", "center");
+    height: $height-s;
+
+    img {
+        transform: scale(0.5);
+    }
+
+    nav {
+        height: 100%;
+
+        ul {
+            @include list-reset;
+            @include flex("around", "center");
+            height: 100%;
+
+            li {
+                @include flex("center", "center");
+                height: 100%;
+
+                a {
+                    @include flex("center", "center");
+                    font-weight: bold;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    height: 100%;
+                    padding: 0px 10px;
+                    border-bottom: 5px solid transparent;
+
+                    &.current {
+                        color: $blue;
+                        border-color: $blue;
+                    }
+                }
+            }
+        }
+    }
+
+    form {
+        border-bottom: 2px solid $blue;
+
+        input {
+            border: none;
+
+            &:focus-visible {
+                outline: none;
+            }
+
+            &::placeholder {
+                text-align: end;
+                color: grey;
+            }
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+            color: $blue;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+main {
+    background-color: #1c1c1c;
+    color: #fff;
+
+    .container {
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+
+        h3 {
+            position: absolute;
+            top: -20px;
+            left: 0;
+            padding: 5px 10px;
+            background-color: $blue;
+            text-transform: uppercase;
+        }
+
+        .card-container {
+            @include flex("start", "stretch");
+            flex-wrap: wrap;
+            padding: 20px;
+
+            .comic-card {
+                flex-basis: calc(100% / 6);
+                padding: 5px;
+                margin: 25px 0;
+                text-align: start;
+
+                figure {
+                    height: 170px;
+                    overflow: hidden;
+                }
+
+                p {
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+
+                .card-text {
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+
+                    h4 {
+                        margin-top: 10px;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        button {
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            color: #fff;
+            background-color: $blue;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+        }
+    }
+}

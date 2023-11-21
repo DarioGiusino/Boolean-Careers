@@ -1,0 +1,33 @@
+#footer-bottom {
+    background-color: $footer-grey;
+    padding: 20px 0;
+}
+
+.container {
+    @include flex("between", "center");
+
+    .footer-btn {
+        background-color: transparent;
+        color: #fff;
+        text-transform: uppercase;
+        border: 3px solid $blue;
+        padding: 10px 15px;
+        font-weight: bold;
+    }
+
+    .footer-links {
+        @include flex("around", "center");
+
+        a {
+            text-decoration: none;
+            padding: 0 5px;
+
+            &:first-child {
+                color: $blue;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding-right: 15px;
+            }
+        }
+    }
+}

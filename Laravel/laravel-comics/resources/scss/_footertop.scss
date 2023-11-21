@@ -1,0 +1,46 @@
+#footer-top {
+    @include background-reset;
+    background-image: url("../images/footer-bg.jpg");
+    color: #fff;
+    overflow: hidden;
+
+    .container {
+        @include flex("between");
+        padding: 30px 0;
+        position: relative;
+
+        .footer-list-container {
+            @include flex();
+
+            .footer-list-col {
+                padding: 0 15px;
+
+                h3 {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+
+                ul {
+                    @include list-reset;
+                    padding: 8px 0;
+
+                    li a {
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: $list-grey;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        figure {
+            position: absolute;
+            right: 0;
+            top: -100px;
+        }
+    }
+}
