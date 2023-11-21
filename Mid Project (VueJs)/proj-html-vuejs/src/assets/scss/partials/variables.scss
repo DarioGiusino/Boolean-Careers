@@ -1,0 +1,58 @@
+// ? higher the number, darker the color
+
+// # BG palette
+$bg-white-1: #fff;
+$bg-white-2: #fafafa;
+$bg-white-3: #f7f8fa;
+$bg-white-4: #f7f8fa;
+$bg-yellow: #e9d758;
+$bg-green-1: #20ad95; //! da #e56768 a #20ad96
+$bg-green-2: #20ad95e6;
+$bg-grey-1: #3d404f;
+$bg-grey-2: #454545;
+$bg-black-1: #000000cc;
+$bg-black-2: #000;
+
+// # text palette
+$text-white-1: #fff;
+$text-white-2: #ffffffcc;
+$text-yellow: #e9d758;
+$text-green: #20ad96; //! da #e56768 a #20ad96
+$text-grey-1: #8b8b8a;
+$text-grey-2: #7f7f7f;
+$text-grey-3: #74777b;
+$text-grey-4: #70727e;
+$text-grey-5: #5c5e6c;
+$text-grey-6: #434959;
+$text-grey-7: #3d404f;
+$text-grey-8: #454545;
+$text-grey-9: #3f3f3f;
+$text-grey-10: #223441;
+$text-black-1: #252525;
+$text-black-2: #151515;
+$text-black-3: #000;
+
+// # fill palette
+$fill-white: #fff;
+$fill-green-1: #69de89;
+$fill-green-2: #82b541;
+$fill-green: #20ad96; //! da #e56768 a #20ad96
+$fill-black: #000;
+
+// # border palette
+$border-white-1: #fff;
+$border-white-2: #ececee;
+$border-white-3: #e5ecef;
+$border-white-4: #eaeaea;
+$border-yellow-1: #e9d758;
+$border-yellow-2: #dcc933;
+$border-grey: #ccc;
+$border-green: #79b530;
+$border-green: #20ad96; //! da #e56768 a #20ad96
+$border-black: #000;
+
+/*  contrast issues 
+1. bg-yellow + text-white-2 + border-yellow-2
+2. bg-white-2 + text-red + border-grey
+3. bg-red-2 + text-white-2 + border-red
+*/

@@ -1,0 +1,66 @@
+@use "./partials/variables.scss" as *;
+
+// # generics
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// # utils
+.section-icon {
+  width: 50px;
+}
+
+// * button utils
+.red-btn {
+  background-color: $bg-green-1;
+  color: $text-white-1;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $bg-yellow;
+    color: $text-white-1;
+    border: 0.5px solid $border-white-4;
+  }
+}
+
+.yellow-btn {
+  background-color: $bg-yellow;
+  color: $text-white-1;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $bg-green-2;
+    color: $text-white-1;
+    border: 0.5px solid $border-white-4;
+  }
+}
+
+.white-btn {
+  background-color: $bg-white-2;
+  color: $text-green;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $bg-green-2;
+    color: $text-white-1;
+    border: 0.5px solid $border-white-4;
+  }
+}
+
+// * wave util
+.wave {
+  height: 10rem;
+  background-size: cover;
+  position: relative;
+}
