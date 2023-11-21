@@ -1,0 +1,140 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #000;
+    height: 80px;
+}
+
+main{
+    background-color: #000;
+    height: calc(100vh - 180px) ;
+    overflow-y: auto;
+}
+
+footer{
+    background-color: #222;
+    height: 100px;
+}
+
+button{
+    border: 0;
+}
+
+/* Utils */
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Header */
+.header-controls{
+    text-align: right;
+    line-height: 80px;
+    padding-right: 10px;
+}
+
+.header-controls button{
+    color: #fff;
+    background-color: #4a4a4a;
+    padding: 7px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.speaker-grid i{
+    margin-right: 5px;
+}
+
+/* Main */
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.partecipant-card{
+    position: relative;
+    padding: 5px;
+}
+.partecipant-card img{
+    display: block;
+    max-width: 100%;
+}
+.partecipant-name{
+    color: #fff;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.partecipant-name i{
+    margin-right: 5px;
+}
+
+/* Footer */
+.footer-controls{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer-controls{
+    display: flex;
+    align-items: center;
+}
+
+.footer-btn {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    background-color: #222;
+    cursor: pointer;
+}
+
+.footer-btn .fa-solid{
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+.center-footer-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.right-footer{
+    align-self: stretch;
+}
+
+.end-btn{
+    height: 100%;
+    padding: 20px;
+    color: red;
+    text-transform: capitalize;
+    background-color: #4a4a4a;
+    font-size: 20px;
+    cursor: pointer;
+}

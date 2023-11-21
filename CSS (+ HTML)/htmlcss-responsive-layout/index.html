@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <!-- imported fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' integrity='sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==' crossorigin='anonymous'/>
+    <!-- internal stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="fixed-header">
+        <div class="flex container">
+            <img src="img/logo.png" alt="logo">
+            <a href="#"><i class="hamburger-menu fa-solid fa-bars"></i></a>
+            <ul class="navbar">
+                <li><a href="#">planning</a></li>
+                <li><a href="#">testimonials</a></li>
+                <li><a href="#">features</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a class="btn bg-white" href="#">get started</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- freatures section -->
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col fb-66">
+                        <div class="features-card">
+                            <div>
+                                <h4>Get a demo application</h4>
+                                <p>Lorem ipsim dolor sit amet consectetur adipiscicing elit.Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                                <a class="btn" href="#"><i class="fa-brands fa-apple"></i>App Store</a>
+                            </div>
+                            <figure>
+                                <img src="img/phone.png" alt="#">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col fb-33">
+                        <div class="features-card">
+                            <i class="fa-solid fa-file-code"></i>
+                            <h4>Clean Code</h4>
+                                <p>Lorem ipsim dolor sit amet consectetur adipiscicing elit.Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                        </div>
+                    </div>
+                    <div class="col fb-33">
+                        <div class="features-card">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                            <h4>Web Design</h4>
+                                <p>Lorem ipsim dolor sit amet consectetur adipiscicing elit.Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                        </div>
+                    </div>
+                    <div class="col fb-33">
+                        <div class="features-card">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h4>Developement</h4>
+                                <p>Lorem ipsim dolor sit amet consectetur adipiscicing elit.Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                        </div>
+                    </div>
+                    <div class="col fb-33">
+                        <div class="features-card">
+                            <i class="fa-solid fa-bullhorn"></i>
+                            <h4>Branding</h4>
+                                <p>Lorem ipsim dolor sit amet consectetur adipiscicing elit.Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- planning section -->
+        <section id="planning" class="bg-purple">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="planning-card">
+                            <img src="img/planning1.png" alt="laptop girl">
+                            <h3>Strategic Planning</h3>
+                            <p>Egestas dui id ornare arcu odio. In tellus integer feugiat scelerisque varius morbi enim nunc. Habitasse platea dictumst quisque sagittis. Interdum velit euismod in pellentesque massa placerat duis. Quis viverra nibh cras pulvinar mattis.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="planning-card bg-white">
+                            <img src="img/planning2.png" alt="laptop man">
+                            <h3>App Developement</h3>
+                            <p>Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.</p>
+                            <a href="#"><i class="bg-purple fa-solid fa-arrow-down-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials section -->
+        <section id="testimonials">
+            <div class="container">
+                <header>
+                    <h5>testimonials</h5>
+                    <h3>We are committed expert partners</h3>
+                    <p>We place huge value on strong relationships and have seen the benefit they bring to our bisness. Customer feedback is vital in helping us to get it right.</p>
+                </header>
+                <div class="row">
+                    <div class="col">
+                        <div class="testimonials-card bg-purple">
+                            <div class="fb-33">
+                                <div class="circle-img">
+                                    <img src="img/testimonial1.jpg" alt="nat">
+                                </div>
+                            </div>
+                            <div class="paragraph fb-66">
+                                <p>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                     Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
+                                    <i class="rounded fa-solid fa-quote-left"></i>
+                                </p>
+                                <address>nat reynolds</address>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="testimonials-card bg-purple">
+                            <div class="fb-33">
+                                <div class="circle-img">
+                                    <img src="img/testimonial2.jpg" alt="nat">
+                                </div>
+                            </div>
+                            <div class="paragraph fb-66">
+                                <p>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                     Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
+                                    <i class="rounded fa-solid fa-quote-left"></i>
+                                </p>
+                                <address>celia almeda</address>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="testimonials-card bg-purple">
+                            <div class="fb-33">
+                                <div class="circle-img">
+                                    <img src="img/testimonial3.jpg" alt="nat">
+                                </div>
+                            </div>
+                            <div class="paragraph fb-66">
+                                <p>
+                                    <i class="fa-solid fa-quote-left"></i>
+                                     Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulvinar proin.
+                                    <i class="rounded fa-solid fa-quote-left"></i>
+                                </p>
+                                <address>bob roberts</address>
+                            </div>  
+                        </div>
+                    </div>            
+                </div>
+            </div>
+        </section>
+
+        <!-- benefits section -->
+        <section id="benefits" class="bg-purple">
+            <div class="container">
+                <h3>Benefits of working with us</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="benefits-card bg-white">
+                            <h2>01</h2>
+                            <h4>hight quality</h4>
+                            <p>Vitae suscipit tellus maurisa diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <a href="#">more</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="benefits-card bg-white">
+                            <h2>02</h2>
+                            <h4>creative team</h4>
+                            <p>Vitae suscipit tellus maurisa diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <a href="#">more</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="benefits-card bg-white">
+                            <h2>03</h2>
+                            <h4>amazing results</h4>
+                            <p>Vitae suscipit tellus maurisa diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <a href="#">more</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="benefits-card bg-white">
+                            <h2>04</h2>
+                            <h4>best pricing</h4>
+                            <p>Vitae suscipit tellus maurisa diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <a href="#">more</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="benefits-card bg-white">
+                            <h2>05</h2>
+                            <h4>innovations</h4>
+                            <p>Vitae suscipit tellus maurisa diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <a href="#">more</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="benefits-card bg-white">
+                            <h2>06</h2>
+                            <h4>24/7 support</h4>
+                            <p>Vitae suscipit tellus maurisa diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin id venenatis.</p>
+                            <a href="#">more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col fb-60">
+                        <div class="about-card">
+                            <h1>about us</h1>
+                            <p>Sample text. Click to Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Pharetra magna ac placerat vestibulum. Quam lacus suspendisse faucibus interdum posuere lorem. Egestas tellus rutrum tellus pellentesque eu tincidunt. Neque vitae tempus quam pellentesque nec. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Interdum velit eusimod in pellentesque massa placerat duis.</p>
+                            <p>Quis viverra nibh cras pulvinar mattis. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. Dignissim diam quis enim lobortis scelerisque. Tellus molestie nunc non bandit massa enim. the text box. Click again or double click to start editing the text.</p>
+                        </div>
+                    </div>
+                    <div class="col fb-40">
+                        <div class="about-card">
+                            <div class="about-img">
+                                <i class="fa-solid fa-quote-left"></i>
+                                <img src="img/about.jpg" alt="about-man">
+                            </div>
+                            <h2>I help companies tincifunt tortor aliquam nulla facilisi cras germentum odio.</h2>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i> Find me on linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- get-started section -->
+        <section id="get-started" class="bg-purple">
+            <div class="container">
+                <h5>get started</h5>
+                <h3>simple, transparent pricing</h3>
+                <h1>It's free</h1>
+                <p>We're still in beta and we will be for awhile. As we add more funcionatily, we'll look into other plans with more controls.</p>
+                <a class="get-started-btn" href="#">get started</a>
+                <ul class="flex">
+                    <li>Copyright 2022 Boolean</li>
+                    <li>Classe 83</li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-black">
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi maiores minima vitae vero nulla pariatur impedit!</p>
+            <p><a href="#">Lorem ipsum</a> scelerisque mauris pellentesque <a href="#">Bollean careers</a></p>
+            
+        </div>
+    </footer>
+</body>
+</html>

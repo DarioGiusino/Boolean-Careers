@@ -1,0 +1,141 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+.box{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+h3{
+    padding: 15px 0;
+}
+
+li{
+    padding: 8px 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/*Utilities*/
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px 25px;
+}
+
+.top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 50px;
+}
+
+/*Logo header*/
+#logo-header{
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.main-header{
+    display: inline;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/*Card manager*/
+.task{
+    color: white;
+    background-color: #1e90ff;
+    border: 1px solid #1e90ff;
+}
+
+.section{
+    color: #7b736f;
+    text-decoration: none;
+    border: 1px solid #7b736f;
+}
+
+/*card body*/
+.down-arrow{
+    font-size: 10px;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+.circle{
+    line-height: 18px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.green{
+    color: green;
+    border: 2px solid green;
+}
+
+.red{
+    color: red;
+    border: 2px solid red;
+}
+
+.tag{
+    color: white;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 3px;
+}
+
+.editorial{
+    background-color: #45abea;
+}
+
+.q1-goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color:#64c0a9 ;
+}
+
+.mobile{
+    background-color: #f29e33;
+}
+
+.website{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c926;
+}
