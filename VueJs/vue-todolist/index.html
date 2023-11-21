@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Internal stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- VueJS -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- Internal script -->
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div id="app" class="container">
+        <!-- # HEADER -->
+        <header class="d-flex justify-content-center w-100 my-3">
+            <img class="img-fluid" src="img/todobanner.webp" alt="list title">
+        </header>
+
+        <!-- # MAIN -->
+        <main>
+            <!-- ? Add task input -->
+            <div class="input-group mb-3 w-50 mx-auto">
+                <input type="text" class="form-control" placeholder="Aggiungi elementi alla lista..." v-model.trim="newTask.text" @keyup.enter="addTask">
+                <button class="btn btn-outline-success" type="button" @click="addTask">Aggiungi</button>
+            </div>
+
+            <!-- ? Tasks list -->
+            <ul class="list-group w-75 mx-auto">
+                <li v-for="(task, i) in tasks" class="list-group-item d-flex justify-content-between" :class="{'text-decoration-line-through': task.done === true}" @click="isDone(i)">
+                    <span class="li-text">{{task.text}}</span>
+                    <button type="button" class="btn-close" @click="deleteTask(i)"></button>
+                </li>
+                <!-- <li class="list-group-item">
+                    <div class="input-group mx-auto">
+                        <input type="text" class="form-control" placeholder="Aggiungi elementi alla lista..." v-model.trim="newTask.text" @keyup.enter="addTask">
+                        <button class="btn btn-outline-success" type="button" @click="addTask">Aggiungi</button>
+                    </div>
+                </li> -->
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
