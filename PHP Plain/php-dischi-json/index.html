@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dischi</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.2/axios.min.js"
+      integrity="sha512-NCiXRSV460cHD9ClGDrTbTaw0muWUBf/zB/yLzJavRsPNUl9ODkUVmUHsZtKu17XknhsGlmyVoJxLg/ZQQEeGA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- vue -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.47/vue.global.min.js"
+      integrity="sha512-DJ2+sosWB5FnZAIeCWAHu2gxQ7Gi438oOZLcBQSOrW8gD0s7LIXDv/5RW76B3FcljF40BXnfqNIo6Dhp7dFHJg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- internal style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- internal script -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- header -->
+      <header>
+        <div class="container h-100">
+          <img class="header-logo" src="logo.svg" alt="logo" />
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <!-- Cards row container -->
+        <div class="container">
+          <div class="row row-cols-3">
+            <div v-for="album in albums" :key="album.title" class="col">
+              <!-- Cards -->
+              <div class="card p-5">
+                <!-- card image -->
+                <figure>
+                  <img
+                    :src="album.poster"
+                    class="card-img-top"
+                    :alt="album.title"
+                  />
+                </figure>
+                <!-- card text -->
+                <div class="card-body text-center">
+                  <h5 class="card-title">{{album.title}}</h5>
+                  <p class="mb-2">{{album.author}}</p>
+                  <strong>{{album.year}}</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- cards modal -->
+        <div class="card-modal" :class="{'d-none': isClosed}">
+          <div>
+            <figure class="modal-pic">
+              <img
+                class="img-fluid"
+                src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg"
+                alt="prova"
+              />
+            </figure>
+            <!-- card text -->
+            <div class="text-center">
+              <h5 class="card-title">titolo</h5>
+              <p class="mb-0">autore</p>
+              <strong>anno</strong>
+            </div>
+          </div>
+
+          <button type="button" class="btn-close"></button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

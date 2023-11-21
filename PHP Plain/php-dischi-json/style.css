@@ -1,0 +1,48 @@
+/* # generics */
+header {
+  background-color: #06131f;
+  height: 80px;
+  padding: 1rem 0;
+}
+
+main {
+  background-color: #1d2d3c;
+  padding-top: 2rem;
+}
+
+/* header */
+.header-logo {
+  max-height: 100%;
+}
+
+/* card */
+.card.p-5 {
+  background-color: #112030;
+  color: #f4eee5;
+  margin-bottom: 1.5rem;
+}
+
+/* modal */
+.card-modal {
+  background-color: #1d2d3cfa;
+  color: #f4eee5;
+  border-radius: 5px;
+
+  position: fixed;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  left: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* modal button */
+.btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
