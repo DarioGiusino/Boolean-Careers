@@ -1,0 +1,37 @@
+/* ROOT Utilities */
+:root{
+    --main-col: #006cfa;
+    --secondary-col: #00e165;
+}
+
+/* Text formatting */
+*{
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+h1{
+    color: #000;
+    text-align: start;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+.row[class*='col']{
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+div[class*='col']{
+    background-color: var(--main-col);
+    border: 1px solid #fff;
+    min-height: 50px;
+}
+
+div.second-bg{
+    background-color: var(--secondary-col);
+    border: 1px solid var(--main-col);
+}

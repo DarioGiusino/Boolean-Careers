@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+body{
+    font-family: 'Fredoka', sans-serif;;
+}
+
+/*Utils*/
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*Header*/
+#title{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 40px;
+    color: #e53170;
+}
+
+.presentation{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/*Section(s)*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.card{
+    background-color: black;
+    width: 350px;
+    display: flex;
+}
+
+.id-img{
+    height: 100px;
+}
+
+/*Employee description*/
+.id-description{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    font-style: normal;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}

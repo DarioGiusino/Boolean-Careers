@@ -1,0 +1,289 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pink: #ee82ee;
+    --lightpink: #ffc0cb;
+    --darkpink:#f08080;
+    --footerpink: #ffb6c1;
+    --dis-purple: #8ea1e1;
+    --blue: #00008b;
+    --lightblue: #1e90ff;
+    --lightgrey: #d3d3d3;
+    --white: #fff;
+    --navorange: #daa520;
+    --green: #228b22;
+    --lightgreen:#20b2aa;
+    --footergreen: #7fffd4;
+    --black: #23272a;
+    --space-s: 5px;
+    --space-m: 15px;
+    --space-l: 40px;
+    --link-space: 10px 15px;
+}
+
+/*generics*/
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+button{
+    font-size: inherit;
+    cursor: pointer;
+}
+
+/*utils*/
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.b-brd{
+    border: 2px dashed #000;;
+}
+.w-brd{
+    border: 2px dashed #fff;;
+}
+
+i{
+    margin-right: 10px;
+    margin-left: 5px;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.gwave{
+    background-color: #fff;
+}
+
+.wwave{
+    background-color: #d3d3d3;
+}
+
+/*header*/
+header{
+    background-color: #255ee9;
+    padding: var(--space-m) 0;
+    color: var(--white);
+}
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div{
+    flex-grow: 1;
+    padding: var(--space-s);
+    align-items: baseline;
+}
+
+nav ul{
+    flex-grow: 2;
+    padding: var(--space-s);
+    justify-content: center;
+}
+
+li > a, div > a{
+    color: var(--white);
+    text-decoration: none;
+    padding: 0 var(--space-m);
+    font-weight: bold;
+}
+
+nav div:last-child{
+    justify-content: flex-end;
+}
+
+.actions a{
+    background-color: var(--white);
+    justify-content: flex-end;
+    color: #000;
+    border-radius: 25px;
+    padding: var(--link-space);
+}
+
+/*header section*/
+.header-section{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    padding: var(--space-l) 0;
+    height: 500px;
+    justify-content: center;
+    color: var(--white);
+}
+
+.main-desc{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#main-title{
+    font-size: 50px;
+    padding: 30px;
+}
+
+.main-paragraph{
+    font-size: 17px;
+    padding: 10px;
+}
+
+.header-section ul{
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.mac-download{
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    padding: var(--link-space);
+}
+
+.browser-opener{
+    background-color: var(--black);
+    color: #fff;
+    border-radius: 25px;
+    padding: var(--link-space);
+}
+
+
+/*main section + main section reverse*/
+.main-section{
+    background-color: var(--white);
+    height: 600px;
+}
+
+.main-section-gray{
+    background-color: var(--lightgrey);
+    height: 600px;
+}
+
+section > div{
+    height: 100%;
+}
+
+.img-section{
+    flex-basis: 60%;
+}
+
+.text-section{
+    flex-basis: 40%;
+}
+
+.title-section{
+    padding: 40px;
+    font-size: 40px;
+}
+
+.paragraph-section{
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+
+.main-section-gray.big{
+    height: 1000px;
+    text-align: center;
+}
+
+.recap{
+    flex-basis: 100%;
+}
+
+.title-download{
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 40px;
+    font-size: 28px;
+    color: #000;
+}
+
+.mac-download.purple{
+    background-color: var(--dis-purple);
+    color: #fff;
+}
+
+/*footer section*/
+.footer-section{
+    background-color: var(--black);
+    padding-top: var(--space-l);
+    height: 400px;
+}
+
+.footer-section > div {
+    padding-bottom: var(--space-l);
+    border-bottom: 2px solid var(--dis-purple);
+    color: #fff;
+}
+
+.contacts{
+    flex-basis: 30%;
+}
+
+.title-contacts{
+    color: var(--dis-purple);
+    font-size: 30px;
+}
+
+.contacts > div{
+    margin: 15px 0;
+}
+
+.ita-flag{
+    height: 15px;
+    margin-right: 5px;
+}
+
+.footer-section a{
+    padding-left: 0;
+}
+
+.details{
+    flex-basis: 70%;
+}
+
+.detail-section{
+    flex-basis: 25%;
+}
+
+.title-details{
+    color: var(--dis-purple);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.detail-section li{
+    padding: 5px 0;
+}
+
+/*footer*/
+footer{
+    background-color: var(--black);
+    padding: var(--space-m) 0;
+}
+
+.footer-box{
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-s) 0;
+}
+
+.footer-btn{
+    background-color: var(--dis-purple);
+    border-radius: 25px;
+    padding: var(--link-space);    
+}
