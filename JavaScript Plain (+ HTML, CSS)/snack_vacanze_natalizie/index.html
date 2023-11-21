@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <!--? Jsnak 1 -->
+    <h1>Jsnak 1</h1>
+    <form id="form-text">
+        <textarea id="text" cols="30" rows="10"></textarea>
+        <select id="turn-select">
+            <option value="turn-word">Gira solo le parole</option>
+            <option value="turn-text">Gira parole e testo</option>
+        </select>
+        <button id="text-button">Invia</button>
+        <button id="reset-button" type="reset">Cancella</button>
+    </form>
+    <div id="text-box" class="d-none"></div>
+
+    <!--? Jsnack 2  -->
+    <h1>Jsnak 2</h1>
+    <p>Prima lista: <span id="first-list"></span></p>
+    <p>Seconda lista: <span id="second-list"></span></p>
+    <p>Lista risultato: <span id="result-list"></span></p>
+
+    <!--? Jsnack 3  -->
+    <h1>Jsnak 3</h1>
+    <form id="form-number">
+        <input id="first-number" class="number-field" type="number">
+        <input id="second-number" class="number-field" type="number">
+        <button>Calcola</button>
+        <button id="reset-number" type="reset">Cancella</button>
+    </form>
+    <p>Numeri compresi: <span id="result-numbers"></span></p>
+</body>
+</html>

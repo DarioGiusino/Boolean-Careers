@@ -1,0 +1,34 @@
+/* generics */
+body{
+    background-color: #083b4c;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+/* utilities */
+.bg-number{
+    background-color: #1389b2;
+}
+
+.bg-fizz{
+    background-color: #0cd6a1;
+}
+
+.bg-buzz{
+    background-color: #ffd166;
+}
+
+.bg-fizzbuzz{
+    background-color: #f0466f;
+}
+
+/* box */
+.element-box{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+

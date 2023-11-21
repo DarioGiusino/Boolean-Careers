@@ -1,0 +1,19 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+
+
+/* UTILS */
+.container{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: rgb(173, 173, 173);
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+}

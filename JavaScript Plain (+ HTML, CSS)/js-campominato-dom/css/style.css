@@ -1,0 +1,69 @@
+/* # GENERICS */
+header{
+    height: 100px;
+}
+
+main{
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+    background-color: #0d1117;
+}
+
+footer{
+    height: 60px;
+    background-color: #c2eddc;
+
+}
+
+footer p{
+    line-height: 60px;
+}
+
+/*  # UTILITIES */
+.brd{
+    border: 1px dashed green;
+}
+
+/* # HEADER */
+/* play button */
+#play{
+    border: 1px solid #a7a7a7;
+    border-radius: 3px;
+}
+
+#play:active {
+  border-color: #7fffd4;
+  box-shadow: #488f77 0 0 3px 2px;
+}
+
+/* # MAIN */
+#grid{
+    margin: 60px;
+    height: calc(100vh - 280px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #a7a7a7;
+}
+
+#grid .cell{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid #a7a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#grid .cell.clicked{
+    background-color: #cdd4ed;
+    color: #000;
+    cursor: not-allowed;
+}
+
+#grid .cell.clicked.bomb{
+    background-color: #e43f41;
+}
