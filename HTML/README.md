@@ -1,13 +1,13 @@
 # html-london-trip
 
-Questo progetto HTML offre un diario di viaggio dettagliato per un soggiorno a Londra. La pagina include diversi elementi:
+This HTML project provides a detailed travel diary for a trip to London. The page includes various elements:
 
-Header: Contiene il titolo "Il mio Viaggio a Londra" e una serie di immagini che rappresentano le icone di Londra come il London Eye, il London Bridge e il Big Ben.
+Header: Contains the title "My Trip to London" and a series of images representing London icons such as the London Eye, the London Bridge, and the Big Ben.
 
-Sezione Spese: Presenta una tabella che elenca le spese sostenute durante il viaggio, fornendo una panoramica del numero, della descrizione e del costo degli articoli, oltre al totale delle spese.
+Expenses Section: Presents a table listing the expenses incurred during the trip, providing an overview of the number, description, and cost of items, as well as the total expenses.
 
-Cose da Fare: Mostra un elenco puntato delle attività completate durante il viaggio, segnalando quali sono state completate con un segno di spunta.
+Things to Do: Shows a bulleted list of activities completed during the trip, indicating which ones have been completed with a checkmark.
 
-Informazioni Utili: Offre una lista numerata di informazioni pratiche come numeri di emergenza, dettagli sull'hotel e informazioni sui voli.
+Useful Information: Offers a numbered list of practical information such as emergency numbers, hotel details, and flight information.
 
-Sezione Foto: Conclude la pagina con alcune immagini di Londra.
+Photo Section: Concludes the page with some pictures of London.
