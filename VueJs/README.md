@@ -1,142 +1,144 @@
 # vite-boolflix
 
-Questa applicazione è una replica di Netflix, denominata "Boolflix". È un'applicazione web sviluppata con il framework Vue.js.
+This application is a replica of Netflix, named "Boolflix". It is a web application developed using the Vue.js framework.
 
-La pagina principale, divisa in due componenti principali (AppHeader e AppMain), consente agli utenti di cercare film e serie TV tramite una barra di ricerca.
+The main page, divided into two main components (AppHeader and AppMain), allows users to search for movies and TV series through a search bar.
 
-Il componente AppHeader contiene il titolo dell'applicazione, Boolflix, e una barra di ricerca dinamica che consente agli utenti di inserire il nome del film o della serie TV desiderato. Quando l'utente digita nella barra di ricerca, vengono inviati due segnali: uno per eseguire la ricerca (search-programs) e l'altro per aggiornare la parola cercata (writing-word).
+The AppHeader component contains the application title, Boolflix, and a dynamic search bar that allows users to enter the name of the desired movie or TV series. When the user types in the search bar, two signals are sent: one to perform the search (search-programs) and the other to update the searched word (writing-word).
 
-Il componente AppMain visualizza i risultati della ricerca, mostrando le card dei film e delle serie TV corrispondenti ai risultati della ricerca. Ogni card presenta una foto del film o della serie TV, il titolo, il titolo originale, la lingua, la valutazione, la descrizione e, se disponibile, la bandiera del paese della lingua originale.
+The AppMain component displays the search results, showing cards of movies and TV series corresponding to the search results. Each card features a photo of the movie or TV series, the title, original title, language, rating, description, and, if available, the flag of the country of the original language.
 
-Il repository contiene anche diversi file aggiuntivi, come i file dei componenti Vue.js, gli stili CSS, il file di configurazione e i dati statici necessari per eseguire le richieste API tramite Axios. L'applicazione si basa sull'API di The Movie Database (TMDb) per ottenere informazioni sui film e sulle serie TV.
+The repository also contains several additional files, such as Vue.js component files, CSS styles, the configuration file, and static data needed to make API requests via Axios. The application relies on The Movie Database (TMDb) API to obtain information about movies and TV series.
 
-Il design e l'interfaccia grafica si ispirano a Netflix, progettati per offrire una navigazione intuitiva e una presentazione accattivante dei risultati di ricerca, riprendendo il layout e lo stile dell'interfaccia utente di Netflix.
+The design and graphical interface are inspired by Netflix, designed to provide intuitive navigation and an engaging presentation of search results, adopting the layout and style of the Netflix user interface.
 
 # vite-boolfolio
 
-Questo progetto è un'applicazione web che utilizza Vue.js per implementare la paginazione dinamica dei contenuti. È strutturato come una Single Page Application (SPA) che include più pagine e componenti per visualizzare una lista di progetti.
+This project is a web application that uses Vue.js to implement dynamic content pagination. It is structured as a Single Page Application (SPA) that includes multiple pages and components to display a list of projects.
 
-Struttura del progetto:
-La navigazione è gestita tramite Vue Router, con una barra di navigazione (AppNavbar) che permette di spostarsi tra le varie sezioni dell'applicazione.
-La pagina principale (HomePage) visualizza una lista di progetti utilizzando la paginazione. Vengono mostrati alcuni progetti per pagina, con un componente di paginazione (AppPagination) che permette di passare da una pagina all'altra.
-La pagina di dettaglio del progetto (ProjectDetailPage) mostra i dettagli di un singolo progetto quando l'utente clicca sul link per aprire un progetto specifico dalla lista.
-La pagina di errore 404 (Error404Page) viene mostrata quando viene richiesta una pagina non esistente.
+Project Structure:
+Navigation is handled through Vue Router, with a navigation bar (AppNavbar) allowing users to move between various sections of the application.
+The main page (HomePage) displays a list of projects using pagination. Some projects are shown per page, with a pagination component (AppPagination) allowing users to navigate between pages.
+The project detail page (ProjectDetailPage) shows the details of a single project when the user clicks on the link to open a specific project from the list.
+The 404 error page (Error404Page) is shown when a nonexistent page is requested.
 
-Funzionalità principali:
-La pagina principale (HomePage) recupera la lista dei progetti dall'API tramite chiamate HTTP utilizzando Axios. Mostra la lista dei progetti con la possibilità di navigare tra le varie pagine.
-La pagina di dettaglio del progetto (ProjectDetailPage) recupera e visualizza i dettagli di un progetto specifico.
-L'applicazione gestisce anche eventuali errori, reindirizzando l'utente alla pagina di errore 404 se una pagina non è trovata.
+Key Features:
+The main page (HomePage) retrieves the list of projects from the API via HTTP calls using Axios. It displays the list of projects with the ability to navigate between pages.
+The project detail page (ProjectDetailPage) retrieves and displays the details of a specific project.
+The application also handles errors, redirecting the user to the 404 error page if a page is not found.
 
-Il codice è strutturato in componenti riutilizzabili, gestisce le chiamate API per recuperare i dati e offre una navigazione fluida tra le pagine grazie all'implementazione della paginazione dinamica di Vue.js.
+The code is structured into reusable components, handles API calls to retrieve data, and offers smooth navigation between pages thanks to the implementation of dynamic pagination in Vue.js.
 
 # vite-breaking-bad
 
-Questo repository contiene una applicazione web Pokedex sviluppata in Vue.js, che si connette a un'API remota per recuperare e visualizzare informazioni sui Pokemon. L'applicazione offre funzionalità di filtraggio dei Pokemon per tipo e nome, con una paginazione dei risultati.
+This repository contains a Pokedex web application developed in Vue.js, which connects to a remote API to retrieve and display information about Pokemon. The application offers filtering functionality for Pokemon by type and name, with pagination of results.
 
-Componenti Principali:
-PokeList.vue: Contiene la logica principale per la visualizzazione e il filtraggio dei Pokemon. Utilizza filtri per tipo e nome per recuperare dati dall'API e mostra i risultati paginati.
-PokeCard.vue: Rappresenta la singola card di un Pokemon, mostrando dettagli come nome, tipo, statistiche e immagine.
-SelectFilter.vue: Componente per filtrare i Pokemon per tipo.
-TextFilter.vue: Componente per filtrare i Pokemon per nome.
-AppLoader.vue: Visualizza un indicatore di caricamento quando i dati vengono recuperati dall'API.
+Main Components:
+PokeList.vue: Contains the main logic for displaying and filtering Pokemon. It uses filters for type and name to retrieve data from the API and displays paginated results.
+PokeCard.vue: Represents the individual card of a Pokemon, showing details such as name, type, stats, and image.
+SelectFilter.vue: Component for filtering Pokemon by type.
+TextFilter.vue: Component for filtering Pokemon by name.
+AppLoader.vue: Displays a loading indicator when data is being retrieved from the API.
 
-Struttura del Codice:
-Il file principale è App.vue che organizza il layout dell'applicazione.
-Viene utilizzato axios per effettuare le richieste API per recuperare i dati dei Pokemon.
-Il file store.js contiene uno stato globale store utilizzato per memorizzare i dati recuperati dall'API e gestire lo stato di caricamento.
-Il codice è strutturato utilizzando i concetti di reactive programming di Vue.js, come le reattività dei dati tramite reactive e l'emissione degli eventi per comunicare tra i componenti.
+Code Structure:
+The main file is App.vue which organizes the layout of the application.
+Axios is used to make API requests to retrieve Pokemon data.
+The store.js file contains a global store state used to store data retrieved from the API and manage the loading state.
+The code is structured using Vue.js reactive programming concepts, such as data reactivity through reactive and event emission to communicate between components.
 
-L'applicazione è progettata per essere interattiva, permettendo agli utenti di filtrare e visualizzare informazioni specifiche sui Pokemon. La struttura modulare dei componenti facilita la manutenzione e l'aggiunta di nuove funzionalità.
+The application is designed to be interactive, allowing users to filter and view specific information about Pokemon. The modular structure of components facilitates maintenance and the addition of new features.
 
 # vite-comics
 
-Questo repository contiene una web app dedicata ai fumetti DC Comics. L'applicazione è stata sviluppata utilizzando Vue.js per la gestione della parte front-end, offrendo agli utenti un'esperienza coinvolgente nella visualizzazione e nell'esplorazione delle serie di fumetti DC.
+This repository contains a web app dedicated to DC Comics. The application was developed using Vue.js for the front-end, offering users an engaging experience in viewing and exploring DC Comics series.
 
-Funzionalità Principali:
-Visualizzazione dei Fumetti: Mostra una serie di card che presentano le informazioni sui fumetti, tra cui immagine della copertina, prezzo, serie e tipo.
-Navigazione Chiara: L'header offre un sistema di navigazione intuitivo per esplorare diverse sezioni, come Personaggi, Fumetti, Film, Serie TV, e altro.
-Footer Informativo: Il footer fornisce accesso rapido a informazioni e collegamenti relativi ai fumetti DC Comics, come i negozi di fumetti, la sottoscrizione, e altro ancora.
+Key Features:
+Comic Display: Shows a series of cards featuring comic information, including cover image, price, series, and type.
+Clear Navigation: The header provides an intuitive navigation system for exploring different sections such as Characters, Comics, Movies, TV Series, and more.
+Informative Footer: The footer provides quick access to information and links related to DC Comics, such as comic shops, subscriptions, and more.
 
 # vite-hello-world
 
-Questo codice rappresenta una semplice applicazione Vue.js utilizzando la Options API, focalizzandosi sull'importazione di componenti e sulla manipolazione dei dati. L'applicazione include tre componenti principali:
+This code represents a simple Vue.js application using the Options API, focusing on importing components and manipulating data. The application includes three main components:
 
-AppTitle.vue: Visualizza un titolo nella pagina.
-AppHero.vue: Mostra un'immagine di intestazione con il metodo buildUrlImage per costruire il percorso dell'immagine a partire dal nome del file fornito.
-App.vue: Aggrega e utilizza i componenti AppTitle e AppHero, definendo anche un dato (pic) che rappresenta il nome del file dell'immagine da visualizzare.
+AppTitle.vue: Displays a title on the page.
+AppHero.vue: Shows a header image with the buildUrlImage method to construct the image path from the provided file name.
+App.vue: Aggregates and uses the AppTitle and AppHero components, also defining a data (pic) representing the image file name to display.
 
-La struttura è semplice e dimostra l'uso della Options API in Vue.js. Ogni componente è organizzato in un file .vue separato, seguendo le pratiche consigliate per la suddivisione del codice Vue.
+The structure is simple and demonstrates the use of the Options API in Vue.js. Each component is organized into a separate .vue file, following best practices for Vue code splitting.
 
 # vue-boolzapp
 
-Boolzap è un'applicazione web che replica alcune funzionalità di WhatsApp, sviluppata utilizzando Vue.js tramite CDN. Questa replica presenta una struttura simile a WhatsApp, consentendo agli utenti di chattare con i contatti, inviare e ricevere messaggi, e gestire le conversazioni.
+Boolzap is a web application that replicates some of WhatsApp's features, developed using Vue.js via CDN. This replica presents a structure similar to WhatsApp, allowing users to chat with contacts, send and receive messages, and manage conversations.
 
-Funzionalità Principali:
-Chat e Contatti: L'app consente agli utenti di visualizzare una lista di contatti, selezionare una chat specifica e interagire con i messaggi.
-Messaggi: Gli utenti possono inviare e ricevere messaggi, che vengono visualizzati con data e ora di invio, identificati come inviati o ricevuti.
-Aggiunta di Contatti: È possibile aggiungere nuovi contatti, consentendo agli utenti di espandere la lista dei destinatari delle conversazioni.
+Key Features:
+Chat and Contacts: The app allows users to view a list of contacts, select a specific chat, and interact with messages.
+Messages: Users can send and receive messages, which are displayed with send time and identified as sent or received.
+Adding Contacts: It is possible to add new contacts, allowing users to expand the list of conversation recipients.
 
-Stack Tecnologico:
-Vue.js: Utilizzato come framework principale per la creazione dell'interfaccia utente e la gestione delle interazioni.
-Luxon: Libreria per la manipolazione delle date e delle ore all'interno dell'applicazione.
-Bootstrap: Utilizzato per lo stile e la struttura generale dell'interfaccia utente.
-Bootstrap Icons: Icone utilizzate per diversi componenti dell'applicazione.
+Technology Stack:
+Vue.js: Used as the main framework for creating the user interface and managing interactions.
+Luxon: Library for handling dates and times within the application.
+Bootstrap: Used for styling and the general structure of the user interface.
+Bootstrap Icons: Icons used for various components of the application.
 
-Scopo dell'App:
-Boolzap è un progetto dimostrativo che illustra come Vue.js può essere utilizzato per sviluppare un'applicazione di messaggistica simile a WhatsApp. L'uso dei CDN di Vue.js e delle librerie Bootstrap semplifica il processo di sviluppo e fornisce un'esperienza simile a WhatsApp agli utenti finali.
+Purpose of the App:
+Boolzap is a demonstrative project that illustrates how Vue.js can be used to develop a chat application similar to WhatsApp. The use of Vue.js and Bootstrap CDNs simplifies the development process and provides an experience similar to WhatsApp to end users.
 
-Questa replica è stata sviluppata come esercizio di apprendimento per dimostrare l'uso di Vue.js nel costruire un'applicazione di chat. L'obiettivo principale è fornire un'esperienza di sviluppo pratica e comprendere i concetti fondamentali di Vue.js nell'ambito di un'applicazione di messaggistica in tempo reale.
+This replica was developed as a learning exercise to demonstrate the use of Vue.js in building a chat application. The main goal is to provide a practical development experience and understand the fundamental concepts of Vue.js within the context of a real-time messaging application.
 
 # vue-dischi
 
-Questa applicazione è un frontend per un negozio di videogiochi che si collega a un server API fornito da un backend Laravel. È stata sviluppata utilizzando Vue.js e sfrutta molte delle sue funzionalità, come Vue Router per la gestione delle rotte e axios per effettuare chiamate HTTP al server.
+This application is a frontend for a video game store that connects to an API server provided by a Laravel backend. It was developed using Vue.js and leverages many of its features, such as Vue Router for route management and Axios for making HTTP calls to the server.
 
-L'applicazione consente agli utenti di visualizzare una lista di videogiochi, dettagli specifici su ciascun gioco e di contattare il negozio attraverso un modulo di contatto. Include pagine per la visualizzazione dei dettagli di ciascun gioco, una pagina per contattare il negozio e una pagina per mostrare i giochi di un editore specifico.
+The application allows users to view a list of video games, specific details about each game, and contact the store through a contact form. It includes pages for viewing details of each game, a page for contacting the store, and a page for showing games from a specific publisher.
 
-È progettata per essere responsiva, con un layout che si adatta a diversi dispositivi, e utilizza stili CSS per migliorare l'aspetto visivo dell'applicazione. Il codice è organizzato in componenti Vue separati per una gestione più pulita e modulare.
+It is designed to be responsive, with a layout that adapts to different devices, and uses CSS styles to enhance the visual appearance of the application. The code is organized into separate Vue components for cleaner and more modular management.
 
-L'applicazione sfrutta anche funzionalità avanzate di Vue come la comunicazione tra componenti, l'uso dei router per la navigazione e la gestione dello stato dell'applicazione.
+The application also leverages advanced Vue features such as component communication, API
+
+ calls to retrieve data, and offers smooth navigation between pages through Vue.js dynamic pagination implementation.
 
 # vue-email-list
 
-Questo codice rappresenta una pagina HTML che utilizza Vue.js e Axios per generare e visualizzare una lista di 10 indirizzi email casuali ottenuti da un API remota.
+This code represents an HTML page that uses Vue.js and Axios to generate and display a list of 10 random email addresses obtained from a remote API.
 
-La pagina HTML è strutturata per mostrare una lista di indirizzi email all'interno del tag ul. Il contenuto della lista viene manipolato attraverso Vue.js, dove viene definita un'applicazione Vue all'interno del tag #app.
+The HTML page is structured to display a list of email addresses within the ul tag. The content of the list is manipulated through Vue.js, where a Vue application is defined within the #app tag.
 
-L'app Vue si connette a un endpoint remoto tramite Axios per ottenere indirizzi email casuali da https://flynn.boolean.careers/exercises/api/random/mail. Il metodo generateMailList() all'avvio della pagina richiama l'API per ottenere 10 indirizzi email casuali e li visualizza nell'interfaccia utente.
+The Vue app connects to a remote endpoint via Axios to obtain random email addresses from https://flynn.boolean.careers/exercises/api/random/mail. The generateMailList() method at page load calls the API to get 10 random email addresses and displays them in the user interface.
 
-Il codice è strutturato per consentire l'aggiornamento della lista dei mail all'avvio della pagina o tramite l'interazione dell'utente con l'applicazione Vue. È un esempio di utilizzo di librerie esterne per ottenere dati da un API remoto e utilizzare Vue.js per gestire l'interfaccia utente in modo reattivo.
+The code is structured to allow updating the email list at page load or through user interaction with the Vue application. It is an example of using external libraries to get data from a remote API and using Vue.js to handle the user interface reactively.
 
 # vue-hello
 
-Questo progetto contiene un'applicazione Vue con un titolo e un'immagine che cambia dinamicamente in base ai dati forniti. Inoltre, è presente un bottone per attivare la modalità scura o chiara, che modifica il tema dell'applicazione in base al tema attualmente selezionato.
+This project contains a Vue application with a title and an image that changes dynamically based on provided data. Additionally, there is a button to toggle between dark or light mode, which changes the application theme based on the currently selected theme.
 
-Il file JavaScript include l'inizializzazione dell'applicazione Vue con un semplice messaggio di saluto e un'immagine casuale. La funzione darkModeToggle gestisce il cambio tema tra luce e scuro al click del bottone. L'applicazione è stata costruita utilizzando Bootstrap per lo stile e Vue.js per la gestione della logica.
+The JavaScript file includes the initialization of the Vue application with a simple greeting message and a random image. The darkModeToggle function handles the theme change between light and dark mode upon button click. The application was built using Bootstrap for styling and Vue.js for logic management.
 
 # vue-slider
 
-Questa è un'applicazione di carosello che utilizza Vue.js per mostrare una galleria di immagini di giochi. La pagina HTML contiene un componente Vue che gestisce il carosello delle immagini, consentendo la navigazione tra le immagini principali tramite bottoni e la visualizzazione di anteprime come elementi selezionabili.
+This is a carousel application that uses Vue.js to display a gallery of game images. The HTML page contains a Vue component that manages the image carousel, allowing navigation between main images through buttons and displaying previews as selectable elements.
 
-La struttura HTML definisce un contenitore principale Vue (#app) che contiene la galleria principale (#gallery) con le immagini e un set di bottoni che permettono di scorrere tra le immagini e di avviare/fermare l'autoplay. Sotto la galleria, ci sono le miniature delle immagini (#thumbnails) che fungono da selettori per le immagini principali.
+The HTML structure defines a main Vue container (#app) containing the main gallery (#gallery) with images and a set of buttons for scrolling through images and starting/stopping autoplay. Below the gallery, there are image thumbnails (#thumbnails) acting as selectors for the main images.
 
-Il file CSS personalizzato (style.css) contiene stili per il layout della pagina, la visualizzazione delle immagini, la grafica dei bottoni e la gestione delle miniature.
+The custom CSS file (style.css) provides minimal styling to the task list, allowing users to click on a task to mark it as completed. Additionally, the first letter of each task is capitalized for aesthetic purposes.
 
-Il file JavaScript (script.js) contiene il codice Vue che definisce il comportamento del carosello. Utilizza le funzionalità di Vue per gestire lo stato dell'applicazione, come l'indice dell'immagine attualmente visualizzata, l'avvio/fermo dell'autoplay e la navigazione tra le immagini.
+The Vue.js script defines a small application with predefined data for some initial tasks. The Vue.js logic handles functions for adding, deleting, and marking tasks as completed. It leverages Vue's reactivity to keep the user interface updated based on user actions.
 
-I dati delle immagini sono memorizzati in un array (pictures) che contiene oggetti con le informazioni su ogni immagine: percorso dell'immagine, titolo e testo descrittivo.
+The image data is stored in an array (pictures) containing objects with information about each image: image path, title, and descriptive text.
 
-L'applicazione è progettata per mostrare un carosello di immagini di giochi in modo interattivo e responsive, permettendo agli utenti di esplorare le immagini principali attraverso i bottoni di navigazione o le miniature sottostanti. La struttura modulare e l'interfaccia intuitiva la rendono adatta per la presentazione di gallerie di immagini.
+The application is designed to display a carousel of game images interactively and responsively, allowing users to explore main images through navigation buttons or the thumbnails below. The modular structure and intuitive interface make it suitable for showcasing image galleries.
 
 # vue-todolist
 
-Questa è una semplice applicazione di "To Do List" creata con Vue.js. Consente agli utenti di aggiungere, eliminare e contrassegnare compiti come completati o da completare.
+This is a simple "To Do List" application created with Vue.js. It allows users to add, delete, and mark tasks as completed or to be completed.
 
-La pagina web mostra una casella di input in cui gli utenti possono digitare nuovi compiti e premere "Aggiungi" per aggiungerli alla lista. I compiti aggiunti vengono visualizzati sotto forma di elenco con la possibilità di contrassegnarli come completati o eliminarli.
+The web page displays an input box where users can type new tasks and press "Add" to add them to the list. Added tasks are displayed as a list with the ability to mark them as completed or delete them.
 
-La struttura è divisa in due sezioni principali:
-Header: contiene un banner che rappresenta il titolo della lista.
-Main: contiene la sezione principale dell'applicazione, dove gli utenti possono aggiungere, visualizzare e gestire i compiti.
+The structure is divided into two main sections:
+Header: Contains a banner representing the title of the list.
+Main: Contains the main section of the application, where users can add, view, and manage tasks.
 
-Il CSS personalizzato fornisce uno stile minimale all'elenco dei compiti, consentendo agli utenti di fare clic su un compito per contrassegnarlo come completato. Inoltre, la prima lettera di ogni compito viene capitalizzata per motivi estetici.
+The custom CSS provides minimal style to the task list, allowing users to click on a task to mark it as completed. Additionally, the first letter of each task is capitalized for aesthetic purposes.
 
-Lo script Vue.js definisce una piccola applicazione con dati predefiniti per alcuni compiti iniziali. La logica Vue.js gestisce le funzioni per aggiungere, eliminare e contrassegnare come completati i compiti. Sfrutta la reattività di Vue per mantenere aggiornata l'interfaccia utente in base alle azioni dell'utente.
+The Vue.js script defines a small application with predefined data for some initial tasks. The Vue.js logic handles functions for adding, deleting, and marking tasks as completed. It leverages Vue's reactivity to keep the user interface updated based on user actions.
