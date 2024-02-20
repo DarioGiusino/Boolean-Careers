@@ -1,142 +1,132 @@
 # html-css-12bool
 
-12Bool è un micro-framework CSS personalizzato progettato per creare layout flessibili e responsivi basati su una griglia di colonne. Questo framework offre classi CSS come .col- con varie larghezze proporzionali, offset per lo spostamento delle colonne e adattabilità a diverse dimensioni dello schermo attraverso media queries. Questo repository mostra esempi pratici di utilizzo della griglia e dei suoi componenti per la creazione di layout flessibili per applicazioni web.
+12Bool is a custom CSS micro-framework designed to create flexible and responsive layouts based on a column grid. This framework offers CSS classes like .col- with various proportional widths, offsets for column shifting, and adaptability to different screen sizes through media queries. This repository showcases practical examples of using the grid and its components to create flexible layouts for web applications.
 
 # html-css-animation-filter
 
-Questa applicazione rappresenta una serie di esercizi interattivi che dimostrano l'utilizzo di effetti, animazioni e filtri CSS. Ogni esercizio è progettato per illustrare un diverso effetto o animazione, dai cambiamenti di colore e dimensione degli elementi al trasformare le immagini con filtri come scala di grigi e seppia. Ogni esercizio è descritto chiaramente, consentendo agli sviluppatori di comprendere e praticare tali concetti nell'ambito dello sviluppo web utilizzando HTML e CSS. La pagina offre una panoramica pratica di varie tecniche che possono essere implementate per creare esperienze utente dinamiche e coinvolgenti su piattaforme web.
+This application represents a series of interactive exercises demonstrating the use of CSS effects, animations, and filters. Each exercise is designed to illustrate a different effect or animation, from color and size changes of elements to transforming images with filters like grayscale and sepia. Each exercise is clearly described, allowing developers to understand and practice these concepts in web development using HTML and CSS. The page provides a practical overview of various techniques that can be implemented to create dynamic and engaging user experiences on web platforms.
 
 # html-css-
 
-Questa pagina HTML è un modello per un sito di e-commerce chiamato "Booleando". La pagina contiene un'intestazione fissa che include una barra di navigazione con sezioni per Donna, Uomo e Bambini, un logo aziendale e icone per l'account utente, i preferiti e il carrello. Il corpo principale della pagina mostra una serie di prodotti divisi in due righe, ognuno rappresentato da una card. Ogni card ha un'immagine del prodotto con uno zoom al passaggio del mouse, informazioni sul prodotto come il marchio, il titolo, il prezzo originale con sconto e possibili etichette per sconti o sostenibilità. Infine, il piè di pagina contiene informazioni legali e link ai social media dell'azienda.
-La struttura è organizzata in sezioni logiche come l'header, il main con i prodotti e il footer. Il CSS è utilizzato per la formattazione e la disposizione degli elementi, definendo vari stili per l'aspetto visivo del sito.
+This HTML page is a template for an e-commerce website called "Booleando." The page contains a fixed header that includes a navigation bar with sections for Women, Men, and Kids, a company logo, and icons for user account, favorites, and cart. The main body of the page shows a series of products divided into two rows, each represented by a card. Each card features a product image with a hover zoom effect, product information like brand, title, original price with discount, and possible discount or sustainability labels. Finally, the footer contains legal information and links to the company's social media. The structure is organized into logical sections like header, main with products, and footer. CSS is used for formatting and layout of elements, defining various styles for the visual appearance of the site.
 
 # html-css-booleaner
 
-Questo codice rappresenta la struttura di una pagina HTML e il relativo stile CSS per un articolo sul manifesto di Tim Berners-Lee.
-La pagina include un'intestazione con il logo "The Booleaner" e dettagli sull'articolo, come il titolo, l'autore e la data. Il corpo principale dell'articolo contiene testo, immagini di diapositive, una lista puntata e una tabella. La sezione footer presenta ulteriori contenuti correlati all'articolo tramite testi e immagini.
-Il CSS fornisce la formattazione e la disposizione degli elementi HTML. Sono presenti stili per l'intestazione, il corpo dell'articolo, la tabella e la sezione footer. Vengono definiti stili per elementi come il logo, le immagini di sfondo, i colori dei testi e degli sfondi, oltre a margini e allineamenti per organizzare visivamente il contenuto.
+This code represents the structure of an HTML page and its corresponding CSS style for an article about Tim Berners-Lee's manifesto. The page includes a header with "The Booleaner" logo and article details like title, author, and date. The main body of the article contains text, slideshow images, a bulleted list, and a table. The footer section features additional content related to the article through texts and images. The CSS provides formatting and layout of HTML elements. Styles are defined for the header, article body, table, and footer section. Styles for elements like logo, background images, text and background colors, as well as margins and alignments, are defined to visually organize the content.
 
 # html-css-bootstrap-freelancer
 
-Progetto che utilizza il framework Bootstrap per creare un sito web che presenta un portafoglio personale.
-La pagina include una barra di navigazione con collegamenti a sezioni come "Portfolio," "About," e "Contact." Il contenuto è strutturato in sezioni che mostrano progetti di grafica e design, informazioni sull'autore e un modulo di contatto.
-Il design è responsivo, adattandosi a diverse dimensioni dello schermo grazie all'utilizzo di classi Bootstrap come container-md, col-, e row. Le sezioni hanno sfondi colorati alternati e sono strutturate in modo chiaro e ben organizzato.
-Il file HTML è accompagnato da un file CSS personalizzato che gestisce lo stile della pagina, definendo i colori, il font utilizzato, la formattazione dei testi, i bordi degli elementi e altro ancora.
+A project that uses the Bootstrap framework to create a website showcasing a personal portfolio. The page includes a navigation bar with links to sections like "Portfolio," "About," and "Contact." The content is structured into sections displaying graphics and design projects, author information, and a contact form. The design is responsive, adapting to different screen sizes through the use of Bootstrap classes like container-md, col-, and row. Sections have alternating colored backgrounds and are well-organized and structured. The HTML file is accompanied by a custom CSS file that handles the page's style, defining colors, font used, text formatting, element borders, and more.
 
 # html-css-float-cards
 
-Questa è una pagina HTML che presenta una serie di "float cards" per mostrare il team di un'azienda o di un progetto. La pagina è divisa in due sezioni principali: un'intestazione con un titolo e un paragrafo descrittivo e una sezione di card per i membri del team.
-Le card sono divise in due righe e ognuna presenta un'immagine associata al ruolo del membro del team, il nome, il ruolo stesso e un'email di contatto.
-Il layout delle card è basato sull'uso di float e clearfix per posizionarle in righe e colonne. Il design è semplice, con sfondi neri e testo bianco per le card, e presenta una dimensione fissa per le immagini e uno stile uniforme per il testo.
-Il file HTML è accompagnato da un file di stile CSS che gestisce la formattazione e la disposizione degli elementi sulla pagina, oltre a definire i colori, il font e la struttura delle card.
+This is an HTML page displaying a series of "float cards" to showcase a company's or project's team. The page is divided into two main sections: a header with a title and descriptive paragraph, and a card section for team members. The cards are arranged in two rows, each featuring an image associated with the team member's role, name, role, and contact email. The layout of the cards is based on the use of float and clearfix to position them in rows and columns. The design is simple, with black backgrounds and white text for the cards, and presents a fixed size for images and a consistent style for text. The HTML file is accompanied by a CSS style file that manages the formatting and layout of elements on the page, as well as defining colors, font, and the structure of the cards.
 
 -- flexbox-conversion
-Conversione del layout basato su Flexbox, utilizzando le proprietà di flessibilità per organizzare dinamicamente le card in righe e colonne, garantendo uno spaziamento uniforme tra di esse.
+Conversion of the layout based on Flexbox, using flexibility properties to dynamically organize cards in rows and columns, ensuring uniform spacing between them.
 
 # html-css-resp-wannabe
 
-Questa pagina HTML rappresenta il sito "Boolean Academy", un'istituzione educativa che offre lezioni in vari formati e modalità. La pagina è strutturata in diverse sezioni:
+This HTML page represents the "Boolean Academy" website, an educational institution offering lessons in various formats and modalities. The page is structured into different sections:
 
-Header: Presenta il titolo del sito, "Boolean Academy".
-Lezioni dove vuoi tu: Mostra due opzioni di lezioni - "A casa tua" e "Online", ognuna con un'immagine e una breve descrizione delle opzioni disponibili.
-Come Funziona: Illustra tre passaggi - "Cerca", "Contatta" e "Programma", ognuno con un'icona, un titolo e una descrizione riguardo al funzionamento del processo.
-Perché Boolean Academy: Presenta un'immagine a sinistra e tre punti elencati a destra, ognuno con un titolo e una descrizione che evidenzia i punti di forza dell'istituzione.
+Navigable Header: The site features a fixed header that includes a logo, a dropdown menu for navigation, and a "get started" link.
+Lesson Where You Want: Displays two lesson options - "At your home" and "Online," each with an image and a brief description of the available options.
+How It Works: Illustrates three steps - "Search," "Contact," and "Schedule," each with an icon, a title, and a description regarding the process's functioning.
+Why Boolean Academy: Presents an image on the left and three listed points on the right, each with a title and description highlighting the institution's strengths.
 
-La pagina è strutturata in modo responsive, adattandosi ai diversi dispositivi come tablet e dispositivi mobili. La disposizione dei contenuti e le dimensioni degli elementi vengono regolate per garantire una buona esperienza utente su dispositivi di diverse dimensioni.
+The page is responsive, adapting to different devices like tablets and mobile devices. Content layout and element sizes are adjusted to ensure a good user experience on devices of
+
+ various sizes.
 
 # html-css-spotifyweb
 
-Questa è un'applicazione web che replica l'interfaccia di un'app musicale, ispirata a Spotify. È stata sviluppata utilizzando HTML, CSS e include anche l'uso di Font Awesome per le icone e Google Fonts per il tipo di carattere.
-La pagina è strutturata in tre sezioni principali: il Navbar a sinistra con le varie sezioni come Home, Cerca, La tua libreria e Playlist, il contenuto principale con le sezioni "Recently Played", "Creato per te" e "Artisti più popolari", e infine il footer che funge anche da player per la riproduzione della musica.
-È stato adottato un design responsive che si adatta a diverse dimensioni di schermo, garantendo una buona esperienza utente su dispositivi mobili e desktop.
+This is a web application that replicates the interface of a music app, inspired by Spotify. It was developed using HTML, CSS, and includes the use of Font Awesome for icons and Google Fonts for the font. The page is structured into three main sections: the left Navbar with various sections like Home, Search, Your Library, and Playlist; the main content with sections like "Recently Played," "Made for You," and "Top Artists;" and finally, the footer which also serves as a music player for playing music. A responsive design was adopted that adapts to different screen sizes, ensuring a good user experience on both mobile and desktop devices.
 
 # html-css-toboolist
 
-Questa è una pagina web per una lista di attività chiamata "ToBooList". È stata costruita utilizzando HTML e CSS per creare un'interfaccia intuitiva e funzionale per la gestione delle attività.
+This is a web page for a to-do list called "ToBooList." It was built using HTML and CSS to create an intuitive and functional interface for task management. The page is divided into sections:
 
-La pagina è divisa in sezioni:
-Logo header: contiene il logo e il nome dell'applicazione.
-Card manager: è la sezione superiore con bottoni per aggiungere nuovi compiti e nuove sezioni.
-Card body: contiene tre elenchi di attività:
-New Tasks: elenco di attività recenti.
-Today: elenco delle attività da svolgere durante la giornata.
-Upcoming: elenco delle attività future.
+Header Logo: Contains the logo and the application name.
+Card Manager: Is the top section with buttons to add new tasks and new sections.
+Card Body: Contains three task lists:
+New Tasks: List of recent tasks.
+Today: List of tasks to be done during the day.
+Upcoming: List of future tasks.
 
-Ogni attività è rappresentata come un elemento di lista con diverse caratteristiche visive:
-Viene utilizzato un simbolo a cerchio per indicare lo stato dell'attività: ✔️ per completate e ❌ per quelle ancora da fare.
-Ogni attività è accompagnata da un'etichetta che indica il tipo di attività (come "Editorial", "Recruiting", "Mobile", ecc.).
-Il design è pulito, utilizzando colori accattivanti per differenziare i vari tipi di attività. È possibile aggiungere nuovi compiti e nuove sezioni utilizzando i bottoni appositi.
+Each task is represented as a list item with various visual features:
+A circle symbol is used to indicate the task's status: ✔️ for completed and ❌ for pending.
+Each task is accompanied by a label indicating the type of task (such as "Editorial," "Recruiting," "Mobile," etc.).
+The design is clean, using eye-catching colors to differentiate between various types of tasks. New tasks and new sections can be added using the appropriate buttons.
 
 # html-css-zoom
 
-Questa è una pagina HTML per un'applicazione di videoconferenza. La pagina offre un'interfaccia per gestire una riunione virtuale con controlli per l'audio, la videochiamata e altre funzionalità.
+This is an HTML page for a video conferencing application. The page provides an interface to manage a virtual meeting with controls for audio, video call, and other features. The structure is divided into three main sections:
 
-La struttura è divisa in tre sezioni principali:
-Header: Contiene i controlli per la visualizzazione degli speaker e la modalità schermo intero.
-Main: Mostra la galleria dei partecipanti alla riunione. Ogni partecipante è rappresentato da una card con un'immagine casuale da Lorem Picsum e il nome. Se il microfono è disattivato, viene visualizzata un'icona corrispondente.
-Footer: Presenta una serie di bottoni per controllare varie funzionalità della videoconferenza, come mutare il microfono, fermare il video, invitare partecipanti, gestire la sessione e molto altro. Include anche un pulsante rosso per terminare la riunione.
+Header: Contains controls for speaker view and full-screen mode.
+Main: Shows the gallery of meeting participants. Each participant is represented by a card with a random image from Lorem Picsum and their name. If the microphone is muted, a corresponding icon is displayed.
+Footer: Presents a series of buttons to control various video conferencing features, such as muting the microphone, stopping video, inviting participants, managing the session, and more. It also includes a red button to end the meeting.
 
-Il layout è progettato con una struttura flessibile e utilizza icone dalla libreria Font Awesome per migliorare l'esperienza visiva.
-L'applicazione è stata costruita con HTML e CSS, mantenendo un design pulito e moderno. È un'interfaccia funzionale per condurre riunioni virtuali utilizzando le funzionalità offerte dalla piattaforma Zoom.
+The layout is designed with a flexible structure and uses icons from the Font Awesome library to enhance the visual experience. The application was built with HTML and CSS, maintaining a clean and modern design. It is a functional interface for conducting virtual meetings using the features offered by the Zoom platform.
 
 # htmlcss-discord
 
-Questa struttura di pagina HTML rappresenta un layout di un sito web per Discord, con sezioni per la navigazione, informazioni sul servizio e il footer. Il codice HTML e CSS definisce il layout della pagina, inclusi header, sezioni principali e footer, usando flexbox per l'allineamento e la strutturazione.
+This HTML page structure represents a website layout for Discord, with sections for navigation, service information, and the footer. The HTML and CSS code defines the layout of the page, including headers, main sections, and the footer, using flexbox for alignment and structuring.
 
-Il sito presenta:
-Header: contiene una barra di navigazione con collegamenti per accedere a varie sezioni del sito e un pulsante di accesso.
-Sezioni principali: presentano informazioni su Discord, i suoi servizi e vantaggi, con titoli, paragrafi e immagini.
-Footer: comprende sezioni per informazioni di contatto, collegamenti social e collegamenti utili al sito.
+The site features:
+Navigational Header: Contains a navigation bar with links to various sections of the site and a login button.
+Main Sections: Present a combination of sections with text and images, some with a reverse layout.
+Footer: Includes additional information and a button or link.
 
-Il CSS è strutturato per impostare lo stile di diversi elementi, con variabili per i colori, e definisce le regole per posizionare e stilizzare elementi come header, sezioni e footer.
+CSS is structured to set the style of various elements, with variables for colors, and defines rules for positioning and styling elements like headers, sections, and footers.
 
 # htmlcss-dropbox
 
-Questa pagina HTML e CSS è un esempio di layout per promuovere Dropbox Business, mostrando i piani, le funzionalità e i vantaggi offerti agli utenti aziendali. Include sezioni per descrivere i piani di abbonamento, le operazioni supportate, i partner collaborativi e testimonianze di clienti. È progettata per essere responsive e offre una panoramica completa delle funzionalità di Dropbox Business.
+This HTML and CSS page is an example layout to promote Dropbox Business, showcasing the plans, features, and benefits offered to business users. It includes sections to describe subscription plans, supported operations, collaborative partners, and customer testimonials. It is designed to be responsive and provides a comprehensive overview of Dropbox Business features.
 
-La pagina include sezioni come:
-Header: con menu di navigazione e pulsanti per iniziare o accedere.
-Jumbotron: un grande titolo con un'immagine e un testo descrittivo per presentare i vantaggi di Dropbox Business.
-Piani e prezzi: presenta i piani di abbonamento disponibili con descrizioni dettagliate e pulsanti per provare o acquistare.
-Sezioni sulle operazioni e sui partner: illustrano le capacità e i servizi offerti da Dropbox Business.
-Contatore di utilizzo e testimonianze dei clienti: evidenziano il numero di team che utilizzano il servizio e alcune testimonianze di clienti soddisfatti.
-Footer: con link utili, suddivisi in categorie, e opzione per la selezione della lingua.
+The page includes sections like:
+Header: with navigation menu and buttons to get started or sign in.
+Jumbotron: a large title with an image and descriptive text to introduce Dropbox Business benefits.
+Plans and Prices: presents available subscription plans with detailed descriptions and buttons to try or purchase.
+Operations and Partners sections: illustrate the capabilities and services offered by Dropbox Business.
+Usage counter and customer testimonials: highlight the number of teams using the service and some customer testimonials.
+Footer: with useful links, categorized, and an option for language selection.
 
 # htmlcss-playstation
 
-Questa applicazione web è un sito web interattivo dedicato all'ecosistema PlayStation. Realizzato utilizzando HTML, CSS e Bootstrap, offre un'interfaccia moderna e responsiva per esplorare le ultime novità, giochi, accessori e servizi disponibili su PlayStation 4 e PlayStation 5.
+This web application is an interactive website dedicated to the PlayStation ecosystem. Developed using HTML, CSS, and Bootstrap, it offers a modern and responsive interface to explore the latest news, games, accessories, and services available on PlayStation 4 and PlayStation 5.
 
-Funzionalità principali:
-Esplorazione delle novità: Consente agli utenti di scoprire le ultime uscite, anticipazioni di giochi, hardware e servizi disponibili sulla piattaforma PlayStation.
-Dettagli sui prodotti: Fornisce informazioni dettagliate su console, giochi, accessori e servizi offerti da PlayStation.
-Navigazione intuitiva: Utilizza un layout user-friendly con una barra di navigazione, sezioni chiare e immagini accattivanti per migliorare l'esperienza degli utenti.
+Key Features:
+New Discoveries: Allows users to discover the latest releases, game previews, hardware, and services available on the PlayStation platform.
+Product Details: Provides detailed information about consoles, games, accessories, and services offered by PlayStation.
+Intuitive Navigation: Uses a user-friendly layout with a navigation bar, clear sections, and eye-catching images to enhance user experience.
 
-Stack tecnologico utilizzato:
-HTML5 & CSS3: Per la struttura e lo stile del sito.
-Bootstrap: Utilizzato per facilitare lo sviluppo del layout e la creazione di un'interfaccia responsive.
+Technological Stack Used:
+HTML5 & CSS3: For the structure and style of the site.
+Bootstrap: Used to facilitate layout development and create a responsive interface.
 
 # htmlcss-responsive-layout
 
-Questa pagina HTML rappresenta un layout responsivo per un sito web che presenta una serie di sezioni dedicate a diverse funzionalità e informazioni. È stata progettata utilizzando HTML5 e CSS3, con l'utilizzo di font di Google e icone da Font Awesome.
+This HTML page represents a responsive layout for a website featuring a series of sections dedicated to different functionalities and information. It was
 
-Struttura della pagina:
-Header Navigabile: Il sito dispone di un header fisso che include un logo, un menu a tendina per la navigazione e un link "get started".
-Sezioni Tematiche: La pagina è divisa in sezioni tematiche, tra cui:
-Features: Mostra varie funzionalità e servizi offerti con immagini rappresentative.
-Planning: Presenta informazioni su pianificazione strategica e sviluppo di app.
-Testimonials: Include testimonianze di clienti con foto e commenti.
-Benefits: Elenca i vantaggi di lavorare con la piattaforma.
-About Us: Descrive l'azienda con una sezione di testo e un'immagine.
-Get Started: Offre informazioni sui prezzi e invita all'azione.
+ designed using HTML5 and CSS3, with the use of Google fonts and icons from Font Awesome.
+
+Page Structure:
+Navigable Header: The site has a fixed header that includes a logo, a dropdown menu for navigation, and a "get started" link.
+Thematic Sections: The page is divided into thematic sections, including:
+Features: Showcases various features and services offered with representative images.
+Planning: Presents information on strategic planning and app development.
+Testimonials: Includes customer testimonials with photos and comments.
+Benefits: Lists the advantages of working with the platform.
+About Us: Describes the company with a text section and an image.
+Get Started: Provides pricing information and encourages action.
 Responsive Design:
-Il layout è progettato per adattarsi a diverse dimensioni di schermi, garantendo una buona esperienza utente su dispositivi desktop, tablet e mobile.
+The layout is designed to adapt to different screen sizes, ensuring a good user experience on desktop, tablet, and mobile devices.
 
 # htmlcss-struttura-discord
 
-Questo progetto rappresenta il layout di base di una pagina web ispirata a Discord, implementata tramite HTML e CSS. La pagina include un header con una barra di navigazione e varie sezioni principali, tra cui una sezione introduttiva, sezioni di contenuto principale e una sezione footer. È stata applicata una combinazione di colori distintivi e un design flessibile per adattarsi a diverse dimensioni di schermo.
+This project represents the basic layout of a web page inspired by Discord, implemented using HTML and CSS. The page includes a header with a navigation bar and various main sections, including an introductory section, main content sections, and a footer section. A distinctive color combination and flexible design were applied to accommodate different screen sizes.
 
-La struttura comprende:
-Header: Contiene una barra di navigazione e un pulsante di accesso.
-Sezioni Principali: Presentano una combinazione di sezioni con testo e immagini, alcune a layout inverso.
-Footer: Include informazioni aggiuntive e un pulsante o un link.
+The structure includes:
+Header: Contains a navigation bar and an access button.
+Main Sections: Present a combination of sections with text and images, some in reverse layout.
+Footer: Includes additional information and a button or link.
