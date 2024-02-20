@@ -1,27 +1,27 @@
-# Cartelle
+# Folders
 
-Le cartelle contengono i progetti svolti durante il periodo di apprendimento in Boolean Careers, suddivisi per tipologia di linguaggio di programmazione. Cronologicamente l'academy ha visto l'implementazione dei linguaggi nel seguente ordine: HTML, CSS, JavaScript Plain, VueJs, MySql, PHP Plain, Laravel.
+The folders contain the projects completed during the learning period at Boolean Careers, divided by programming language type. Chronologically, the academy saw the implementation of languages in the following order: HTML, CSS, JavaScript Plain, Vue.js, MySQL, PHP Plain, Laravel.
 
 # Mid Project (VueJs)
 
-Questo progetto rappresenta il traguardo di metà percorso nell'academy, focalizzandosi sulle competenze acquisite nell'ambito dello sviluppo front-end con Vue.js. La cartella contiene un'applicazione interattiva di e-commerce, costruita principalmente in VueJs, che integra numerosi aspetti cruciali del front-end development. L'e-commerce offre una piattaforma intuitiva e responsive per la vendita di prodotti di vario genere.
+This project represents the mid-path milestone in the academy, focusing on the skills acquired in front-end development with Vue.js. The folder contains an interactive e-commerce application, primarily built in Vue.js, integrating various crucial aspects of front-end development. The e-commerce provides an intuitive and responsive platform for selling various products.
 
-L'implementazione di Vue.js garantisce un'esperienza utente dinamica e fluida, consentendo agli utenti di navigare tra le categorie di prodotti, visualizzare dettagli, aggiungere articoli al carrello e completare l'acquisto con facilità. Gli sforzi si concentrano sull'usabilità e sull'interattività, sfruttando al meglio le funzionalità offerte da Vue.js per gestire la logica dell'interfaccia utente in modo efficiente.
+The implementation of Vue.js ensures a dynamic and smooth user experience, allowing users to navigate through product categories, view details, add items to the cart, and complete purchases with ease. Efforts are focused on usability and interactivity, making the most of Vue.js features to efficiently manage user interface logic.
 
-Inoltre, la cartella include l'utilizzo di diverse utility a livello grafico per migliorare l'aspetto visivo dell'applicazione. SCSS viene adoperato per organizzare lo stile del sito in maniera modulare e manutenibile, mentre l'integrazione di Bootstrap assicura una struttura responsive e uniforme su diverse piattaforme. FontAwesome è stato utilizzato per l'implementazione di icone, arricchendo l'estetica e la chiarezza visiva dell'e-commerce.
+Additionally, the folder includes the use of various graphic utilities to enhance the visual appearance of the application. SCSS is used to modularly organize the site's style in a maintainable way, while Bootstrap integration ensures a responsive and consistent structure across different platforms. FontAwesome has been used for icon implementation, enriching the aesthetics and visual clarity of the e-commerce.
 
-Complessivamente, questo progetto mid-term è un'occasione per dimostrare la comprensione e l'applicazione delle competenze acquisite nell'utilizzo di Vue.js, SCSS, Bootstrap e FontAwesome, creando un'applicazione e-commerce reattiva e funzionale.
+Overall, this mid-term project is an opportunity to demonstrate understanding and application of skills acquired in Vue.js, SCSS, Bootstrap, and FontAwesome, creating a responsive and functional e-commerce application.
 
 # Final Project (VueJs, Laravel)
 
-Il progetto è un'applicazione complessa e completa che replica l'esperienza offerta dall'applicazione di consegna cibo Deliveroo. Utilizza un'architettura basata su Laravel per il backend e Vue per il frontend, consentendo una comunicazione fluida tra le due applicazioni attraverso microservizi.
+The project is a complex and comprehensive application that replicates the experience offered by the food delivery application Deliveroo. It uses a Laravel-based architecture for the backend and Vue for the frontend, allowing smooth communication between the two applications through microservices.
 
-La cartella "Final Project (VueJs, Laravel)" rappresenta l'ambiente di sviluppo principale in cui è stato costruito questo progetto all'interno dell'academy di Boolean Careers. La scelta di Laravel per il backend offre solidità e flessibilità nello sviluppo delle funzionalità di gestione dei dati, delle richieste e delle operazioni logiche dell'applicazione. D'altra parte, Vue.js è stato utilizzato per fornire un'interfaccia utente reattiva e intuitiva che consente agli utenti di interagire in modo fluido con l'applicazione.
+The "Final Project (Vue.js, Laravel)" folder represents the main development environment where this project was built within the Boolean Careers academy. The choice of Laravel for the backend provides solidity and flexibility in developing data management, request handling, and logical operations of the application. On the other hand, Vue.js was used to provide a responsive and intuitive user interface that allows users to interact smoothly with the application.
 
-Uno degli aspetti cruciali e distintivi di questo progetto è l'implementazione della libreria di Braintree. Braintree offre soluzioni di pagamento scalabili e sicure che consentono agli utenti di effettuare transazioni finanziarie in modo affidabile e sicuro all'interno dell'applicazione. L'integrazione di Braintree offre ai clienti la possibilità di effettuare pagamenti in modo veloce e senza problemi, migliorando l'esperienza complessiva dell'utente durante l'utilizzo dell'applicazione.
+One of the crucial and distinctive aspects of this project is the implementation of the Braintree library. Braintree offers scalable and secure payment solutions that allow users to make financial transactions reliably and securely within the application. The integration of Braintree provides customers with the ability to make payments quickly and seamlessly, enhancing the overall user experience while using the application.
 
-L'approccio a microservizi favorisce la scalabilità e la manutenibilità dell'applicazione. Questa architettura divisa in moduli consente una gestione più efficace delle varie funzionalità dell'applicazione, consentendo anche aggiornamenti e modifiche senza influenzare negativamente l'intero sistema.
+The microservices approach favors the scalability and maintainability of the application. This architecture divided into modules allows more effective management of the various functionalities of the application, also allowing updates and changes without negatively impacting the entire system.
 
-In sintesi, il progetto "Final Project (VueJs, Laravel)" è un'applicazione avanzata che replica l'esperienza di un servizio di consegna cibo come Deliveroo. Sfrutta l'architettura moderna di Laravel e Vue.js, insieme all'implementazione di Braintree per fornire un'esperienza utente fluida, sicura e funzionale, garantendo allo stesso tempo la scalabilità e la manutenibilità attraverso l'uso di microservizi.
+In summary, the "Final Project (Vue.js, Laravel)" is an advanced application that replicates the experience of a food delivery service like Deliveroo. It leverages the modern architecture of Laravel and Vue.js, along with the implementation of Braintree to provide a smooth, secure, and functional user experience, while ensuring scalability and maintainability through the use of microservices.
 
-Il lavoro è stato svolto con un team di 5 persone.
+The work was carried out with a team of 5 people.
